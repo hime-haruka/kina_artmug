@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KinA Live2D Portfolio</title>
+<link rel="stylesheet" href="./iframe.css">
+</head>
+<body>
+<div id="page" class="page">
+<header class="hero section-block" id="topHero">
+<div class="eyebrow">Live2D Rigging Portfolio</div>
+<h1>섬세하고 안정적인 Live2D 리깅</h1>
+<p>모델의 매력이 자연스럽게 살아나는 움직임을 목표로 작업합니다.</p>
+<nav class="quick-nav" aria-label="페이지 바로가기">
+<a href="#profile">작가 소개</a>
+<a href="#slots">작업 슬롯</a>
+<a href="#guide">안내사항</a>
+<a href="#process">작업 순서</a>
+<a href="#progress">작업 진행 안내</a>
+<a href="#options">리깅 옵션</a>
+<a href="#details">리깅 디테일</a>
+<a href="#showcase">쇼케이스</a>
+<a href="#partners">협업 작가</a>
+<a href="#form">신청 양식</a>
+</nav>
+</header>
+<main>
+<section id="profile" class="section-block">
+<div class="section-head">
+<span>01</span>
+<h2>작가 소개</h2>
+<p>작업자의 소개와 작업 방향을 확인할 수 있습니다.</p>
+</div>
+<div id="profileContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="slots" class="section-block">
+<div class="section-head">
+<span>02</span>
+<h2>작업 슬롯</h2>
+<p>월별 접수 가능 상태를 확인해 주세요.</p>
+</div>
+<div id="slotsContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="guide" class="section-block">
+<div class="section-head">
+<span>03</span>
+<h2>안내사항</h2>
+<p>문의 전 확인해야 할 기본 안내입니다.</p>
+</div>
+<div id="guideContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="process" class="section-block">
+<div class="section-head">
+<span>04</span>
+<h2>작업 순서</h2>
+<p>문의부터 완성까지의 진행 흐름입니다.</p>
+</div>
+<div id="processContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="progress" class="section-block">
+<div class="section-head">
+<span>05</span>
+<h2>작업 진행 안내</h2>
+<p>컨펌과 일정 진행 기준을 정리했습니다.</p>
+</div>
+<div class="progress-grid">
+<article>
+<strong>자료 확인</strong>
+<p>파츠분리 PSD와 참고자료를 확인한 뒤 작업 가능 여부와 견적을 안내합니다.</p>
+</article>
+<article>
+<strong>컨펌 진행</strong>
+<p>1차 리깅과 2차 리깅 단계에서 컨펌을 진행하며, 오류 수정은 수정 횟수에 포함하지 않습니다.</p>
+</article>
+<article>
+<strong>파일 전달</strong>
+<p>완성 후 VTube Studio에서 사용할 수 있는 세팅 파일을 전달합니다.</p>
+</article>
+</div>
+</section>
+<section id="options" class="section-block">
+<div class="section-head">
+<span>06</span>
+<h2>리깅 옵션</h2>
+<p>기본 작업과 추가 옵션을 카테고리별로 확인할 수 있습니다.</p>
+</div>
+<div id="optionsContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="details" class="section-block">
+<div class="section-head">
+<span>07</span>
+<h2>리깅 디테일</h2>
+<p>작업 가능한 움직임과 디테일 예시입니다.</p>
+</div>
+<div id="detailsContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="showcase" class="section-block">
+<div class="section-head">
+<span>08</span>
+<h2>쇼케이스</h2>
+<p>완성 작업물과 영상 예시를 확인할 수 있습니다.</p>
+</div>
+<div id="showcaseContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="partners" class="section-block">
+<div class="section-head">
+<span>09</span>
+<h2>협업 작가</h2>
+<p>함께 의뢰할 수 있는 협업 작가 안내입니다.</p>
+</div>
+<div id="partnersContent" class="loading-card">불러오는 중입니다.</div>
+</section>
+<section id="form" class="section-block">
+<div class="section-head">
+<span>10</span>
+<h2>신청 양식</h2>
+<p>항목을 작성하면 복사용 신청서가 정리됩니다.</p>
+</div>
+<form id="requestForm" class="request-form">
+<div class="form-grid">
+<label>방송 닉네임<input type="text" name="nickname" autocomplete="name" placeholder="예: 킨아"></label>
+<label>방송 플랫폼<input type="text" name="platform" placeholder="예: 치지직 / 유튜브 / 트위치"></label>
+</div>
+<div class="work-type-field">
+<div class="field-title">작업 종류</div>
+<div id="workTypeChoices" class="work-type-list empty-state">작업 종류를 불러오는 중입니다.</div>
+</div>
+<div class="form-grid">
+<label>희망 마감일<input type="date" name="deadline"></label>
+<label>예산<input type="text" name="budget" placeholder="예: 30만원 / 상담 후 결정"></label>
+<label>포트폴리오 공개 여부<select name="portfolio"><option value="가능">가능</option><option value="비공개 요청">비공개 요청</option><option value="상담 필요">상담 필요</option></select></label>
+<label>일러스트 작가 정보<input type="text" name="artistInfo" placeholder="작가명 / 연락처 / 포트폴리오 링크 등"></label>
+</div>
+<div class="option-picker">
+<div class="option-picker-head">
+<strong>옵션 선택</strong>
+<span>선택한 옵션은 복사 양식에 반영됩니다.</span>
+</div>
+<div id="formOptions" class="form-options empty-state">옵션 정보를 불러오는 중입니다.</div>
+</div>
+<label class="wide-label">추가 요청사항<textarea name="memo" rows="6" placeholder="원하는 움직임, 표정, 일정 관련 요청 등을 적어주세요."></textarea></label>
+<div class="form-actions">
+<button type="button" id="copyFormButton">양식 복사</button>
+<button type="reset">Reset</button>
+</div>
+<textarea id="copyOutput" class="copy-output" readonly aria-label="복사될 신청 양식"></textarea>
+</form>
+</section>
+</main>
+</div>
+<div id="videoModal" class="video-modal" aria-hidden="true">
+<div class="video-modal-backdrop" data-modal-close></div>
+<div class="video-modal-dialog" role="dialog" aria-modal="true" aria-label="쇼케이스 영상">
+<button type="button" class="video-modal-close" data-modal-close aria-label="영상 닫기">×</button>
+<div id="videoModalFrame" class="video-modal-frame"></div>
+<div id="videoModalTitle" class="video-modal-title"></div>
+</div>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="./iframe.js"></script>
+</body>
+</html>
