@@ -4,7 +4,7 @@ var scriptEl=document.currentScript||document.querySelector("script[src*='parent
 var scriptOrigin="";
 try{scriptOrigin=scriptEl&&scriptEl.src?new URL(scriptEl.src).origin:""}catch(e){}
 var iframeId=config.iframeId||"portfolioFrame";
-var iframeSelector=config.iframeSelector||"iframe[src*='kina-artmug.netlify.app'], iframe[src*='artmug_portfolio'], iframe[src*='iframe.html'], [name='am-root'] iframe, #portfolioFrame";
+var iframeSelector=config.iframeSelector||"iframe[src*='hime-haruka.github.io/kina_artmug'], iframe[src*='artmug_portfolio'], iframe[src*='iframe.html'], [name='am-root'] iframe, #portfolioFrame";
 var allowedOrigin=config.allowedOrigin||scriptOrigin||"*";
 var stickyOffset=Number(config.stickyOffset)||0;
 var removeSelectors=config.removeSelectors||[".artmug_btn",".artmug-button",".portfolio_button",".btn_area",".button_area","a[href*='order']","a[href*='request']","a[href*='apply']"];
@@ -20,7 +20,7 @@ if(found&&found.tagName&&found.tagName.toLowerCase()==="iframe")return found;
 if(config.iframeSelector){found=q(config.iframeSelector);if(found&&found.tagName&&found.tagName.toLowerCase()==="iframe")return found}
 found=q("[name='am-root'] iframe");
 if(found&&found.tagName&&found.tagName.toLowerCase()==="iframe")return found;
-found=q("iframe[src*='"+(scriptOrigin||"netlify.app")+"']");
+found=q("iframe[src*='"+(scriptOrigin||"hime-haruka.github.io")+"']");
 if(found&&found.tagName&&found.tagName.toLowerCase()==="iframe")return found;
 found=q(iframeSelector);
 if(found&&found.tagName&&found.tagName.toLowerCase()==="iframe")return found;
